@@ -54,6 +54,9 @@ for item in [words,screen_names,hashtags]:
 	print c.most_common()[:10]
 	print 
 
+
+# MAPPING TABLE
+
 from prettytable import PrettyTable
 for label, data in (('Word', words),
 	('Screen Name', screen_names),
@@ -63,3 +66,28 @@ for label, data in (('Word', words),
 	[ pt.add_row(kv) for kv in c.most_common()[:10] ]
 	pt.align[label], pt.align['Count'] = 'l', 'r' # Set column alignment
 	print pt
+
+
+
+# LEXICAL DIVESIRY
+
+def lexical_diversity(tokens):
+	return 1.0*len(set(tokens))/len(tokens)    #we are using set to remove similar elements
+
+
+
+def average_words(statuses):
+	total_words = sum([len(s.split()) for s in statuses])
+	return 1.0*total_words/len(statuses)
+
+print
+print
+print "LEXICAL DIVERSITY"
+print 
+print 
+
+
+print lexical_diversity(words)
+print lexical_diversity(screen_names)
+print lexical_diversity(hashtags)
+print average_words(status_texts)

@@ -1,0 +1,23 @@
+Company:
+
+yoinit
+
+Application Name:
+
+yoforit
+
+API Key:
+
+75m67zxcei46ns
+
+Secret Key:
+
+ZBSPI4EgOBAbIfUQ
+
+OAuth User Token:
+
+d797ddd3-8a54-4db3-b026-d6e3eb7b18f2
+
+OAuth User Secret:
+
+93a4a6a1-9a7e-4d69-9897-bfacbc6a0123

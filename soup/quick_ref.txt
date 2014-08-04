@@ -1,0 +1,19 @@
+Quick reference
+You can view the following references to get an overview of creating the
+following objects:
+•	 BeautifulSoup
+° ° soup = BeautifulSoup(string)
+° ° soup = BeautifulSoup(string,features="xml")
+° ° tag = soup.tag #accessing a tag
+° °
+° ° tag.name
+•	 Tag
+#Tag name
+tag['attribute']
+#Tag attribute
+
+
+#for xmlChapter 2
+•	 NavigableString
+° °
+soup.tag.string #get Tag's string

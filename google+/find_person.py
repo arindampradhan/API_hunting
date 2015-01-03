@@ -2,7 +2,7 @@ import httplib2
 import json
 import apiclient.discovery #
 Q = "Tim O'Reilly"
-API_KEY = 'AIzaSyDJ6RNSOiPun0-FZHsS_WUeGN0FPiNtHeA'
+API_KEY = ''
 service = apiclient.discovery.build('plus', 'v1', http=httplib2.Http(),
 developerKey=API_KEY)
 people_feed = service.people().search(query=Q).execute()

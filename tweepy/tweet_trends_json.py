@@ -1,10 +1,10 @@
 import json
 import twitter
 
-C_KEY = 'iyijz0WauC47JhldDofD5Sxrq'
-C_SECRET = 'FoHv0HGkYYrSgWcXEEdIXWyw8L3zCbQqXR69w2tZhLaW8qah52'
-OAUTH_TOKEN = '2193588674-W5Zq9smc5F4RRVHI23E7AVFpgdLf9WcZQIKSJmA'
-OAUTH_SECRET = 'Pr3CMTlToMrmPvnsReG5M06zDdtNtmiE8MaskOQpDhT34'
+C_KEY = ''
+C_SECRET = ''
+OAUTH_TOKEN = ''
+OAUTH_SECRET = ''
 
 auth = twitter.oauth.OAuth(OAUTH_TOKEN,OAUTH_SECRET,C_KEY,C_SECRET)
 

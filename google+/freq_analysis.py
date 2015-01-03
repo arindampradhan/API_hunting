@@ -5,11 +5,11 @@ import apiclient.discovery
 from BeautifulSoup import BeautifulStoneSoup
 from nltk import clean_html
 
-USER_ID = '107033731246200681024' # Tim O'Reilly
+USER_ID = '' # Tim O'Reilly
 
 # XXX: Re-enter your API_KEY from  https://code.google.com/apis/console 
 # if not currently set
-API_KEY = 'AIzaSyDJ6RNSOiPun0-FZHsS_WUeGN0FPiNtHeA' 
+API_KEY = '' 
 
 MAX_RESULTS = 200 # Will require multiple requests
 
